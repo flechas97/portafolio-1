@@ -1,0 +1,62 @@
+<nav *ngIf="widthscreen < 650" class="menu_mobil">
+    <div class="row h-100">
+        <div [routerLink]="['/']" class="col-3 bg-dark h-100 text-center">
+            <i class="bi bi-bookmark-plus-fill"></i>
+        </div>
+        <div [routerLink]="['/sobre_mi']" class="col-3 bg-danger h-100 text-center">
+            <i class="bi bi-bookmark-plus-fill"></i>
+        </div>
+        <div [routerLink]="['/proyectos']" class="col-3 bg-dark h-100 text-center">
+            <i class="bi bi-bookmark-plus-fill"></i>
+        </div>
+        <div [routerLink]="['/contacto']" class="col-3 bg-danger h-100 text-center">
+            <i class="bi bi-bookmark-plus-fill"></i>
+        </div>
+    </div>
+</nav>
+
+<nav *ngIf="widthscreen > 650" class="menu">
+    <div class="row justify-content-center">
+        <div class="col-6 logo">
+            <!-- LOGO -->
+        </div>
+        <div class="col-12">
+            <h5 class="text-center mt-2">Roberto Bermejo</h5>
+        </div>
+    </div>
+    <div class="row lista_nav">
+        <div [routerLink]="['/inicio']" [routerLinkActive]="['active']" class="col-12 item_nav">
+            <!-- boton -->
+            <p class="enlace_nav">Inicio</p>
+        </div>
+        <div [routerLink]="['/sobre_mi']" [routerLinkActive]="['active']" class="col-12 item_nav">
+            <!-- boton -->
+            <p class="enlace_nav">Sobre mi</p>
+        </div>
+        <div [routerLink]="['/trabajos']" [routerLinkActive]="['active']" class="col-12 item_nav">
+            <!-- boton -->
+            <p class="enlace_nav">Trabajos</p>
+        </div>
+        <div [routerLink]="['/contacto']" [routerLinkActive]="['active']" class="col-12 item_nav">
+            <!-- boton -->
+            <p class="enlace_nav">Contacto</p>
+        </div>
+        <div class="col-12 item_nav">
+            <!-- boton -->
+            <p class="enlace_nav">Enlace</p>
+        </div>
+        <div class="col-12 item_nav_blank">
+            <!-- boton -->
+        </div>
+        <div class="col-12 mx-4">
+            <!-- boton -->
+            redes
+        </div>
+        <div class="col-12 mx-4">
+            <!-- boton -->
+            Mas cosas de las que existen
+        </div>
+    </div>
+</nav>
+
+
