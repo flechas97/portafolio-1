@@ -1,11 +1,12 @@
-import { Component, OnInit ,HostListener } from '@angular/core';
+import { Component, OnInit,HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.component.html',
-  styleUrls: ['./inicio.component.css']
+  selector: 'app-sobremi',
+  templateUrl: './sobremi.component.html',
+  styleUrls: ['./sobremi.component.css']
 })
-export class InicioComponent implements OnInit {
+export class SobremiComponent implements OnInit {
+
   widthscreen:any;
   constructor() {
     this.widthscreen = window.innerWidth;
@@ -19,4 +20,5 @@ export class InicioComponent implements OnInit {
   onResize() {
     this.widthscreen = window.innerWidth;
   }
+
 }

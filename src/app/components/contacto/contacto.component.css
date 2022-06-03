@@ -1,4 +1,3 @@
-
 .contenido{
     /* margin-left: 20em; */
     width: 80%;
@@ -10,7 +9,7 @@
     height: 200px;
     margin-bottom: 30px;
     padding-top: 40px;
-    background-color: royalblue;
+    background-color: red;
 }
 .title{
     text-align: center;

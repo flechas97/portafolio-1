@@ -1,11 +1,12 @@
-import { Component, OnInit ,HostListener } from '@angular/core';
+import { Component, OnInit,HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.component.html',
-  styleUrls: ['./inicio.component.css']
+  selector: 'app-contacto',
+  templateUrl: './contacto.component.html',
+  styleUrls: ['./contacto.component.css']
 })
-export class InicioComponent implements OnInit {
+export class ContactoComponent implements OnInit {
+
   widthscreen:any;
   constructor() {
     this.widthscreen = window.innerWidth;
