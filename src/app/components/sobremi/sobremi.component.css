@@ -15,3 +15,7 @@
     text-align: center;
     line-height: 110px;
 }
+.body{
+    background-color: #353535;
+    height: 100vh;
+}

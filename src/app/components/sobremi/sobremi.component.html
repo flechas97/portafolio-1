@@ -1,10 +1,15 @@
 <div *ngIf="widthscreen < 650" class="contenido_mobil">
     <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO mobil</h1>
 </div>
-<div class="imagen">
-    <h1 class="title">Titulo de la pagina</h1>
-</div>
-<div *ngIf="widthscreen > 650" class="contenido">
-    
-    <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO</h1> 
+
+<div class="body">
+
+
+        <div class="imagen">
+            <h1 class="title">Titulo de la pagina</h1>
+        </div>
+        <div *ngIf="widthscreen > 650" class="contenido">
+            
+            <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO</h1> 
+        </div>
 </div>

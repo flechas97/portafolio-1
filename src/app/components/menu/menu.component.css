@@ -25,7 +25,9 @@ i{
     top: 0;
     height: 100%;
     width: 300px;
-    background-color: rgba(245, 245, 245, 0.336);
+    background-color: #15133C;
+    color: #F1EEE9;
+    z-index: 100;
 }
 .logo{
 height: 175px;
@@ -43,9 +45,10 @@ border-radius: 100%;
     margin-top: 10px;
     transition: 0.3s;
     cursor: pointer;
+   
 }
 .item_nav:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: #262461;
     transform: translateX(32.5px);
     width: 100%;
 }
@@ -60,11 +63,11 @@ border-radius: 100%;
     font-size: 20px;
 }
 .active{
-    background-color: rgb(94, 94, 94);
+    background-color: #524ec7;
     color: white;
 }
 .active:hover{
-    background-color: rgb(94, 94, 94);
+    background-color: #524ec7;
     color: white;
 }
 .lista_nav{

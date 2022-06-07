@@ -4,15 +4,59 @@
     width: 80%;
     height: 100%;
     margin: auto;
+  
+}
+.body{
+    background-color: #353535;
+    height: 100vh;
+    
 }
 .imagen{
     width: 100%;
     height: 200px;
     margin-bottom: 30px;
     padding-top: 40px;
-    background-color: royalblue;
+    background-color: #191646;
 }
 .title{
     text-align: center;
     line-height: 110px;
+    color: #524ec7;
 }
+.letra{
+    display: inline-block;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.jorge{
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+.color{
+    color: rgb(162, 255, 250);
+   
+}
+/* .letra:hover{
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

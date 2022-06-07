@@ -1,13 +1,46 @@
 
 
-
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 <div *ngIf="widthscreen < 650" class="contenido_mobil">
     <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO mobil</h1>
 </div>
-<div class="imagen">
-    <h1 class="title">Titulo de la pagina</h1>
-</div>
-<div *ngIf="widthscreen > 650" class="contenido">
+<div class="body">
+
+<!-- <h1>¡Hola! Soy el puto amo <br> y jorge lo sabe!</h1> -->
+<div class="frase animate__rubberBand">
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">!</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">H</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">o</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">l</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">!</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">!</span>
     
-    <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO</h1> 
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">m</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">i</span>
+    <!-- <i>Dragon flyght</i> -->
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra"> &nbsp; </span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+    <span (mouseenter)="animacion($event)" (mouseleave)="animacion2($event)" class="letra">a</span>
+</div>
+
+<!-- <span>C</span><span>S</span><span>S</span><span>&nbsp;</span><span>S</span><span>m</span><span>o</span><span>k</span><span>y</span><span>&nbsp;</span><span>T</span><span>e</span><span>x</span><span>t</span><span>&nbsp;</span><span>E</span><span>f</span><span>f</span><span>e</span><span>c</span><span>t</span> -->
+
+    <!-- <div class="imagen">
+        <h1 class="title">Titulo de la pagina</h1>
+    </div>
+    <div *ngIf="widthscreen > 650" class="contenido">
+        
+        <h1>SOY EL CONTENIDO DE LA PAGINA DE INICIO</h1> 
+    </div> -->
 </div>

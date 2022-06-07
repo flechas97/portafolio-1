@@ -22,17 +22,17 @@ import {
           [style({ opacity: 0 })],
           { optional: true }
         ),
-       
         query(
-          ':enter',
-          [style({ opacity: 0 }), animate('0.2s', style({ opacity: 1 }))],
+          ':leave',
+           [style({ position: 'relative', right: '0%' }), animate('0.2s', style({position: 'relative', right: '0%'}))],
           { optional: true }
         ),
-        //  query(
-        //   ':leave',
-        //    [style({ opacity: 1 }), animate('0.5s', style({ opacity: 0}))],
-        //   { optional: true }
-        // ),
+        query(
+          ':enter',
+          [style({ position: 'absolute', right: '100%',top:0, opacity: 1,width: '100%' }), animate('0.2s', style({ position: 'absolute', right: '0%',top:0, opacity: 1,width: '100%' }))],
+          { optional: true }
+        ),
+        
       ])
     ])
     
@@ -41,7 +41,6 @@ import {
 export class MenuComponent implements OnInit {
   widthscreen:any;
   constructor() { }
-
   ngOnInit(): void {
    this.widthscreen = window.innerWidth;
   }

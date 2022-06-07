@@ -15,6 +15,20 @@ export class InicioComponent implements OnInit {
   ngOnInit(): void {
     
   }
+  animacion(event:any){
+    // console.log()
+    event.target.classList.add("jorge")
+    event.target.classList.add("color")
+    // setTimeout(() => {
+     
+    // }, 500);
+    setTimeout(() => {
+      event.target.classList.remove("jorge")
+    }, 1000);
+  }
+  animacion2(event:any){
+    event.target.classList.remove("color")
+  }
   @HostListener('window:resize', ['$event'])
   onResize() {
     this.widthscreen = window.innerWidth;

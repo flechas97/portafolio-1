@@ -1,8 +1,9 @@
 .contenido{
     /* margin-left: 20em; */
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: auto;
+
 }
 .imagen{
     width: 100%;
@@ -14,4 +15,11 @@
 .title{
     text-align: center;
     line-height: 110px;
+}
+.mitad{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+ 
+    border: 1px solid black;
 }
